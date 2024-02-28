@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+body {
+  margin: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+/*---------- HEADER ----------*/
+
+header {
+  height: 300px;
+  width: 100%;
+  background: #e3e3e3;
+}
+
+
+/*---------- CONTENT AREA ----------*/
+
+.col-3 {
+  width: 100%;
+  height: 320px;
+  float: left;
+}
+
+#column-1 {
+  background: pink;
+}
+
+#column-2 {
+  background: blue;
+}
+
+#column-3 {
+  background: purple;
+}
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #e3e3e3;
+}
+
+/*---------- TABLET ----------*/
+/* Change the background colors below */
+
+@media (min-width: 768px) {
+
+  /*---------- SAGE COLOR ----------*/
+
+  header {
+    background-color: #8A9A5B;
+  }
+
+  /*---------- ROSE GOLD COLOR ----------*/
+
+  #column-1 {
+    background-color: #E0BFB8;
+  }
+
+  /*---------- BLUE GRAY COLOR -----------*/
+
+  #column-2 {
+    background-color: #7393B3;
+  }
+
+  /*---------- PUCE COLOR ----------*/
+
+  #column-3 {
+    background-color: #A95C68;
+  }
+
+  /*---------- TAN COLOR ----------*/
+
+  footer {
+    background-color: #D2B48C;
+  }
+
+}
+
+/*---------- Desktops ----------*/
+@media (min-width: 1200px) {
+
+  /*---------- CELADON COLOR ----------*/
+  header {
+    background-color: #AFE1AF ;
+  }
+
+  /*---------- MILLENIAL PINK COLOR ----------*/
+  #column-1 {
+    background-color: #F3CFC6;
+  }
+/*---------- GLAUCOUS COLOR ----------*/
+
+  #column-2 {
+    background-color: #6082B6 ;
+  }
+/*---------- RED PURPLE COLOR ----------*/
+  #column-3 {
+    background-color: #953553 ;
+  }
+/*---------- ALMOND COLOR ----------*/Í
+  footer {
+    background-color: #EADDCA;
+  }
+
+}
