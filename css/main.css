@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 /* CSS Document */
 
@@ -48,7 +49,6 @@ header {
 
 
 /*---------- FOOTER ----------*/
-
 footer {
   width: 100%;
   height: 30px;
@@ -61,35 +61,35 @@ footer {
 @media (min-width: 768px) {
 
   /*---------- SAGE COLOR ----------*/
-
   header {
     background-color: #8A9A5B;
   }
 
   /*---------- ROSE GOLD COLOR ----------*/
-
   #column-1 {
     background-color: #E0BFB8;
   }
 
   /*---------- BLUE GRAY COLOR -----------*/
-
   #column-2 {
     background-color: #7393B3;
   }
 
   /*---------- PUCE COLOR ----------*/
-
   #column-3 {
     background-color: #A95C68;
+    width: 100%
   }
 
+  /*---------- FOOTER ----------*/
   /*---------- TAN COLOR ----------*/
-
   footer {
     background-color: #D2B48C;
   }
 
+  .col-3 {
+    width: 50%;
+  }
 }
 
 /*---------- Desktops ----------*/
@@ -97,25 +97,32 @@ footer {
 
   /*---------- CELADON COLOR ----------*/
   header {
-    background-color: #AFE1AF ;
+    background-color: #AFE1AF;
   }
 
   /*---------- MILLENIAL PINK COLOR ----------*/
   #column-1 {
     background-color: #F3CFC6;
   }
-/*---------- GLAUCOUS COLOR ----------*/
 
+  /*---------- GLAUCOUS COLOR ----------*/
   #column-2 {
-    background-color: #6082B6 ;
+    background-color: #6082B6;
   }
-/*---------- RED PURPLE COLOR ----------*/
+
+  /*---------- RED PURPLE COLOR ----------*/
   #column-3 {
-    background-color: #953553 ;
+    background-color: #953553;
+    width: 33.33%;
   }
-/*---------- ALMOND COLOR ----------*/Í
-  footer {
+
+  /*---------- FOOTER ----------*/
+  /*---------- ALMOND COLOR ----------*/
+   footer {
     background-color: #EADDCA;
   }
 
+  .col-3 {
+    width: 33.33%;
+  }
 }
